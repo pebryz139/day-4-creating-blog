@@ -1,0 +1,673 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    height: 8vh;
+}
+
+nav .nav-left img{
+    width: 52px;
+}
+
+nav .nav-left{
+    display: flex;
+    padding-left: 60px;
+    flex: 50%;
+    align-items: center;
+}
+
+nav .nav-left li{
+    display: inline;
+}
+
+nav .nav-left ul{
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-left img{
+    margin-right: 50px;
+}
+
+nav .nav-left ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+}
+
+nav .nav-right{
+    display: flex;
+    flex: 50%;
+    justify-content: flex-end;
+    align-items: center;  
+    padding-right: 100px; 
+}
+
+nav .nav-right a{
+    background-color: black  ;
+    color: white;
+    text-decoration: none;
+    padding:8px 20px;
+    border-radius: 12px;
+}
+
+
+nav .nav-left ul li a:hover{
+    font-weight: 600;
+    color: rgb(80, 78, 78);
+}
+
+nav .nav-right a:hover{
+    background-color: rgb(80, 78, 78) ;
+    color: white;
+    text-decoration: none;
+    padding:8px 20px;
+    border-radius: 12px;
+}
+
+.container{
+    background-color: rgb(190, 190, 190);
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+} 
+
+.section{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    box-shadow: 6px 6px 10px rgb(156, 156, 156);
+    border-radius: 12px;
+    align-items: center;
+    padding:28px 0 ;
+}
+
+.left{
+    flex: 60%;
+    padding-left: 80px;
+}
+
+.left h2, p{
+    text-align: justify;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.button a{
+    color: black;
+    text-decoration: none;
+    padding-right: 12px;
+}
+
+.button .contact{
+    padding: 8px 24px;
+    background-color: black;
+    color: white;
+    margin-right: 24px;
+    border-radius: 32px;
+}
+
+.button .contact:hover{
+    background-color:rgb(80, 78, 78);
+}
+
+.button .download:hover{
+    font-weight: 600; 
+}
+
+.button img{
+    width: 24px;
+}
+
+.media{   
+    padding-top: 60px;
+}
+
+.media img{
+    width: 40px;
+    margin-right: 24px;
+}
+
+.fa-stack{
+    font-size: 24px;
+    vertical-align: middle;
+}
+.fa-stack:hover{
+    color: rgb(80, 78, 78);
+}
+
+i{
+    vertical-align: middle;
+}
+
+.right{
+    flex: 40%;   
+}
+
+.right div{
+    background-color: white;
+    margin: 40px auto;
+    width: 60%;
+    text-align: center;
+    box-shadow: 6px 6px 10px rgb(185, 185, 185);
+    border-radius: 12px;
+}
+
+.right h2{
+    margin: 0;
+}
+
+.right p{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.right img{
+    border-radius: 12px 12px 0 0;
+}
+
+/* css form */
+body{
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+}
+
+.container-form{
+   display: flex;
+   height: 92vh;
+   justify-content: center;
+   align-items: center;
+}
+
+h2{
+   text-align: center;
+}
+
+form{
+   padding: 12px;
+}
+
+form div{
+   margin-top: 10px;
+}
+
+form label{
+   font-weight: bold;
+   font-size: 16px;
+   text-align: center;
+}
+
+form input, select, textarea{
+   background-color: rgb(243, 243, 243);
+   padding: 10px;
+   width: 100%;
+   margin-top: 8px;
+   border-radius: 12px;
+   border: 1px solid rgb(231, 231, 231);
+   box-sizing: border-box;
+   resize: none;
+}
+
+textarea{
+   height: 100px;
+}
+
+form .submit{
+   display: flex;
+   justify-content: end;
+}
+form button{
+   background-color: black;
+   color: white;
+   margin-top: 12px;
+   padding: 4px 32px;
+   border: none;
+   border-radius: 12px;
+   font-size: 16px;
+   font-weight: 600;
+   cursor: pointer;
+   display: flex;
+}
+
+form button:hover{
+   background-color: rgb(80, 78, 78);
+}
+
+/* my-project */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.project{
+    height: 92vh;
+}
+
+/* Project Form */
+.project-form{
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+}
+
+.project-form .project-container{
+    padding: 0px 40px;
+    width: 30%;
+}
+
+.project-form h2{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+input, textarea, .checkmark, .project-form .project-container .file-project .input-image-group label{
+    box-shadow: 3px 3px 4px rgb(185, 185, 185);
+    border: 1px solid rgb(202, 202, 202);
+    padding: 4px 4px 4px 8px;
+}
+
+/* Input Title */
+.project-form .project-container .title-project{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.project-form .project-container .title-project input{
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 4px; 
+}
+
+/* Input Date */
+.project-form .project-container .date-project{
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.project-form .project-container .date-project .input-date-start{
+    padding-right: 8px;
+    width: 50%;
+}
+
+.project-form .project-container .date-project .input-date-end{
+    padding-left: 8px;
+    width: 50%;
+}
+
+.project-form .project-container .date-project input{
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 4px;
+}
+
+
+.project-form .project-container .description-project{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.project-form .project-container .description-project textarea{
+    margin-top: 4px;
+    width: 100%;
+    border-radius: 12px;
+    height: 100px;
+    resize: none;
+}
+
+.project-form .project-container .checkbox-project{
+    width: 100%;
+}
+
+.project-form .project-container .checkbox-project p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+
+.project-form .project-container .checkbox-project .input-checkbox{
+    display: flex;
+    width: 100%;
+    margin-bottom: 4px;
+}
+.project-form .project-container .checkbox-project .input-checkbox label{
+    display: block;
+    margin-bottom: px;
+}
+.project-form .project-container .checkbox-project .input-checkbox .checkbox-left{
+   
+    width: 50%;
+}
+
+.project-form .project-container .checkbox-project .input-checkbox .checkbox-right{
+   
+    width: 50%;
+}
+
+.project-form .project-container .checkbox-project .input-checkbox .container-checkbox {
+    display:inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: rgb(90, 90, 90);
+    font-size: 16px;
+   
+}
+
+
+.project-form .project-container .checkbox-project .input-checkbox .container-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+  
+
+.project-form .project-container .checkbox-project .input-checkbox .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 6px;
+}
+  
+
+.project-form .project-container .checkbox-project .input-checkbox .container-checkbox:hover input ~ .checkmark {
+    background-color: rgb(80, 78, 78);
+}
+  
+
+.project-form .project-container .checkbox-project .input-checkbox .container-checkbox input:checked ~ .checkmark {
+    background-color:rgb(80, 78, 78);
+}
+  
+ 
+.project-form .project-container .checkbox-project .input-checkbox .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    
+}
+  
+
+.project-form .project-container .checkbox-project .input-checkbox .container-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+ 
+.project-form .project-container .checkbox-project .input-checkbox .container-checkbox .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* Input File */
+.project-form .project-container .file-project{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.project-form .project-container .file-project label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.project-form .project-container .file-project .input-image-group input{
+    width: 100%;
+    display: none;
+}
+
+.project-form .project-container .file-project .input-image-group label{
+    cursor: pointer;
+    padding: 0 12px 0 0;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.project-form .project-container .file-project .input-image-group label p{
+    background-color: #adadad;
+    border: 1px;
+    border-radius: 12px 0 0 12px;
+    font-size: 16px;
+    padding: 6px;
+}
+
+.project-form .project-container .file-project .input-image-group label p:hover{
+    background-color: rgb(80, 78, 78);
+    color: white;
+}
+
+.project-form .project-container .btn-project{
+    text-align: right;
+}
+
+.project-form .project-container .btn-project button{
+    margin-top: 20px;
+    padding: 4px 16px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    border-color: black;
+}
+
+.project-form .project-container .btn-project button:hover{
+    background-color: rgb(80, 78, 78);
+    border-color: rgb(80, 78, 78);
+}
+
+/* Project List */
+.title-list{
+    text-align: center;
+    margin: 40px 0;
+    box-sizing: border-box;
+}
+.project-list{
+    align-items:flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 100px;
+}
+
+.project-list .project-list-item{
+    width: 29%;
+    padding: 15px;
+    margin: 20px 28px 20px 20px;
+    border: 2px solid #dbdbdb;
+    border-radius: 12px;
+}
+
+.project-list .project-list-item .project-image{
+    flex: 1;
+}
+
+.project-list .project-list-item .project-image img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.project-list .project-list-item .project-content{
+    flex: 2;
+}
+
+.project-list .project-list-item .project-content h2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.project-list .project-list-item .project-content .description-project{
+    padding: 32px 0;
+}
+
+.project-list .project-list-item .project-content .description-project p{
+    word-break: break-all;
+}
+
+.project-list .project-list-item .project-content .technologis-project{
+    margin-bottom: 12px;
+}
+
+.project-list .project-list-item .project-content .technologis-project i{
+    font-size: 24px;
+    padding-right: 12px;
+    font-weight: 500;
+}
+
+.project-list .project-list-item .project-content .btn-group{
+    margin-top: 28px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.project-list .project-list-item .project-content .btn-group .btn-left{
+    width: 50%;
+    padding-right: 8px;
+}
+
+.project-list .project-list-item .project-content .btn-group .btn-right{
+    width: 50%;
+    padding-left: 8px;
+}
+
+.project-list .project-list-item .project-content .btn-group button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 6px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.project-list .project-list-item .project-content .btn-group button:hover{
+    background-color:rgb(80, 78, 78);
+     border-color: rgb(80, 78, 78);
+}
+
+/* myproject-detail */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.project-detail{
+    background-color: rgb(192, 224, 224);
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px 50px 100px;
+}
+
+.project-detail h2{
+    text-align: center;
+    padding: 28px 0;
+}
+
+.project-detail .detail{
+    display: flex;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.project-detail .detail .detail-left{
+    display: flex;
+    width: 70%;
+}
+
+.project-detail .detail .detail-left img{
+    width: 100%;
+    object-fit: cover;
+    padding: 0 100px 0 0;
+}
+
+.project-detail .detail .detail-right{
+    padding: 24px 0 0 12px;
+    width: 50%;
+}
+
+.project-detail .detail .detail-right h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.project-detail .detail .detail-right .duration{
+    font-size: 16px;
+    display: block;
+    margin-bottom: 32px;
+}
+
+.project-detail .detail .detail-right .duration i{
+    font-weight: 600;
+    margin-right: 8px;
+    padding: 4px 12px;
+    font-size: 24px;
+}
+
+.project-detail .detail .detail-right .technologis{
+    display: flex;
+    width: 100%;
+}
+
+.project-detail .detail .detail-right .technologis .technologis-left{
+    width: 50%;
+}
+
+.project-detail .detail .detail-right .technologis i{
+    font-weight: 600;
+    margin-right: 8px;
+    padding: 4px 12px;
+    font-size: 24px;
+}
+
+.project-detail .detail .detail-right .technologis .technologis-right{
+    width: 50%;
+}
+
+.project-detail .detail-description{
+    font-size: 14px;
+    margin-top: 12px;
+    line-height: 18px;
+    
+}
